@@ -1,0 +1,21 @@
+[package]
+name = "unsigned-dll-hunter"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+walkdir = "2"
+chrono = "0.4.31"
+colored = "2.1.0"
+
+
+[dependencies.windows-sys]
+version = "0.52"
+features = [
+    "Win32_Security",
+    "Win32_Security_WinTrust",
+    "Win32_Security_Cryptography",
+    "Win32_Foundation",
+]
