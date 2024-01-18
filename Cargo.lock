@@ -184,8 +184,8 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3354b9ac3fae1ff6755cb6db53683adb661634f67557942dea4facebec0fee4b"
 
 [[package]]
-name = "unsigned-dll-hunter"
-version = "0.1.0"
+name = "unsigned-pe-hunter"
+version = "1.0.0"
 dependencies = [
  "chrono",
  "colored",
